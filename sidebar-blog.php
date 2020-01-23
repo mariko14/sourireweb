@@ -47,13 +47,13 @@ foreach($date as $post):?>
 	            </a>
 	        </li>
 			        <li class="ranking-4">
-	            <a href="https://sourire-web-studio.com/blog/design/new-business_card/">
+	            <a href="https://sourire-web-studio.com/blog/webdesign/webdedign-school/">
 	                <div class="cms-nav-img">
-	                    <img src="/wp-content/uploads/2019/06/c5b9b2874e4db432d3fc5199cd8f89dc.jpg" width="500" height="331" alt="新しい名刺ができました。活版印刷の現場に潜入。" class="object-fit-img">
+	                    <img src="/wp-content/uploads/2014/03/adobesoft.jpg" width="500" height="327" alt="WEBデザイナーになるには、スクールに行かないといけないの？" class="object-fit-img">
 	                </div>
 	                <div class="cms-nav-txt">
-	                    <div class="cms-nav-tit">新しい名刺ができました。活版印刷の現場に潜入。</div>
-	                    <div class="cms-nav-date">2019/06/21</div>
+	                    <div class="cms-nav-tit">WEBデザイナーになるには、スクールに行かないといけないの？</div>
+	                    <div class="cms-nav-date">2014/03/28 </div>
 	                </div>
 	            </a>
 		</ul>
