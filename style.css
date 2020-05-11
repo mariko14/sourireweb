@@ -3,7 +3,7 @@
 Theme Name: sourireweb
 Theme URL: https://sourire-web-studio.com/
 Author: Mariko
-Version: 1.0.3
+Version: 1.0.4
 */
 
 html {-webkit-text-size-adjust: 100%}
@@ -666,7 +666,7 @@ section.widget_search{text-align:center;}
 .top-concept{background-size: 70px auto; padding: 100px 0 0 0;background-position: center top;}
 .top-profile{padding: 40px 0 0 0;background-position: center top;background-size: 69px auto;}
 .top-profile .more-about{position: initial;margin: 10px auto 0 auto;}
-#top-works{background: none;padding: 0;width: 625px;height: auto;}
+#top-works{width: 92%;margin: 0 auto 30px;padding: 40px 35px 10px 35px;}
 .top-works-title .toworks{    background: url(images/formback.jpg) repeat left top;}
 .footer-inner{ width:94%; margin:0 auto;}
 .footer-info,.footer_nav{ float:none; margin:0 auto;width: auto;}
@@ -800,6 +800,7 @@ select{line-height:50px;height:50px;}
 @media only screen and (max-width: 489px){ 
 	br.br489{display: inline;}
 	#header h2 img{width: 200px;display:block;margin:0 auto;}
+	#top-works { padding: 30px 15px 5px 15px;}
 	#content .date{font-size: 12px;}
 	#flow-list ul.flow-ul {display: block;margin: 0 auto 20px;}
 	#flow-list .flow-ul li{width: 100%;height: auto;display: block;margin: 0 auto 25px auto;background: url(images/formback.jpg) repeat left top;border-radius: 6px;padding: 10px 0 0 0;min-height: 50px;}
