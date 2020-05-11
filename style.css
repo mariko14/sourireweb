@@ -3,7 +3,7 @@
 Theme Name: sourireweb
 Theme URL: https://sourire-web-studio.com/
 Author: Mariko
-Version: 1.0.2
+Version: 1.0.3
 */
 
 html {-webkit-text-size-adjust: 100%}
@@ -239,7 +239,7 @@ align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;-w
 #top-menu-list .min{font-size: 12px;}
 #top-menu-list .temp-pc{position: absolute;bottom: 17px;left: 0;right: 0;display: block;width: 190px;margin: auto;background: url(images/background.jpg) repeat left top;border-radius: 3px;-webkit-border-radius: 3px; -moz-border-radius: 3px;padding: 4px;font-size: 14px;}
 #top-menu-list .temp-pc span {background: url(images/list_b-min.png) no-repeat center left;padding: 0 0 0 20px;}
-#top-works{width: 100%;height: 252px;background: url(images/works-back.png) no-repeat left top;background-size: 100% 100%;padding: 40px 35px 0 35px;margin: 0 auto 30px auto;}
+#top-works{width: 100%;height: auto;background: url(images/back-yellow.png) repeat center top;padding: 40px 35px 25px 35px;margin: 0 auto 30px auto;border-radius: 6px;}
 .top-works-title{background: url(images/works-top-line.png) no-repeat left bottom;padding:0 0 14px 0;margin:0 auto 20px auto;position:relative;}
 .top-works-title h2 img{display: inline;vertical-align: middle;padding: 0 10px 3px 0;}
 .top-works-title h2 span{color: #695C54;font-weight: bold;font-size: 18px;}
@@ -247,7 +247,8 @@ align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;-w
 .top-works-title .toworks:hover{background: url(images/pack-back.jpg) repeat left top;}
 .top-works-title .toworks img{margin: 0 !important;}
 #top-works ul{width:100%;margin:0 auto;flex-wrap:wrap;-ms-flex-wrap:wrap;-webkit-flex-wrap:wrap;}
-#top-works ul li img{display: block;}
+#top-works ul li{width: 24%;margin: 0 0.5% 10px;}
+#top-works ul li img{display: block;width: 100%;height: auto;}
 .top-link{font-size:16px; font-weight:bold; background:url(images/houses.jpg) no-repeat left bottom; padding-bottom:65px; overflow:hidden; margin-bottom:30px;}
 .top-link a{ display:block; background:url(images/list_b-min.png) no-repeat left 9px; font-size:20px; font-weight:bold; padding-left:16px;}
 .link-price{ width:234px; height:138px; background:url(images/flow_cloud.jpg) no-repeat center center; margin:0 auto;padding: 46px 0 0 39px;}
@@ -665,10 +666,8 @@ section.widget_search{text-align:center;}
 .top-concept{background-size: 70px auto; padding: 100px 0 0 0;background-position: center top;}
 .top-profile{padding: 40px 0 0 0;background-position: center top;background-size: 69px auto;}
 .top-profile .more-about{position: initial;margin: 10px auto 0 auto;}
-.top-info-post h4.title{}
 #top-works{background: none;padding: 0;width: 625px;height: auto;}
 .top-works-title .toworks{    background: url(images/formback.jpg) repeat left top;}
-#top-works ul {width: 450px;text-align: center;}
 .footer-inner{ width:94%; margin:0 auto;}
 .footer-info,.footer_nav{ float:none; margin:0 auto;width: auto;}
 #footer ul ul{padding:0;}
@@ -710,6 +709,8 @@ img.alignright, img.alignleft{display: block;margin: 0 auto 15px auto;}
 .alignright,.alignleft{float:none;}
 .top-link{ background-size:96%; width:96%; margin:0 auto;}
 .link-qa,.link-contact{ margin-top:0;}
+#top-works {padding: 36px 25px 15px 25px;}
+#top-works ul li{width: 32%;}
 .news{ width:90%; margin:0 5%;}
 #banners p{ float:none; width:250px; height:auto; margin:0 auto 10px auto;}
 .baner1,.baner1 img{ width:250px; height:170px;}
@@ -799,7 +800,6 @@ select{line-height:50px;height:50px;}
 @media only screen and (max-width: 489px){ 
 	br.br489{display: inline;}
 	#header h2 img{width: 200px;display:block;margin:0 auto;}
-	#top-works ul{width:298px;}
 	#content .date{font-size: 12px;}
 	#flow-list ul.flow-ul {display: block;margin: 0 auto 20px;}
 	#flow-list .flow-ul li{width: 100%;height: auto;display: block;margin: 0 auto 25px auto;background: url(images/formback.jpg) repeat left top;border-radius: 6px;padding: 10px 0 0 0;min-height: 50px;}
@@ -808,9 +808,6 @@ select{line-height:50px;height:50px;}
 	table.table-res tr{display: block;overflow: hidden;padding: 0 0 20px 0;}
     table.table-res th,table.table-res td{padding: 10px 0;float: left;clear: both;width: 99% !important;}
     table.table-res thead th{padding: 0;border-bottom: 1px #fff solid;}
-  /*  table.table-res th{border:#eeebeb solid;border-width: 1px 1px 1px 1px !important;}
-    table.table-res td{border-width: 0 1px 1px 1px !important;}
-    table.table-res thead td{border-width: 0 1px 1px 1px !important;border: #eeebeb solid;}*/
     table.table-res .none{display: none;}
     table.option{border-top:1px solid #d3c9a4 !important;}
     table.option tr{padding: 0;}
@@ -837,57 +834,55 @@ select{line-height:50px;height:50px;}
 	.paper-list li {width: 48%;}
 }
 @media only screen and (max-width: 420px){
- br.br420{display: inline;}
-#mainImg{ width:100%; height:auto;}
-#mainImg h2.mainimage-title {font-size: 16px;margin: 0 auto 15px auto;width: 96%;}
-.top-info h3.top-info-h3{font-size: 18px;margin: 0 0 20px 0;min-height: 14px;}
-.top-info h3.top-info-h3 img.img-inline {margin: 0 5px;width: 20px;height: auto;}
-.top-info-post h4.title {padding: 15px 5px !important;font-size: 14px;}
-.top-works-title{text-align: center;}
-.top-works-title h2 img{display: block;margin: 0 auto;}
-.photo-link{ float:none; margin:0 auto;}
-.shiyou{ width:280px;}
-.price-nav .price-nav-button p span{display: none;}
-.pack-box img.pack-title {width:100%;height:auto;}
-.pack-pages {display: block;    text-align: center;    margin: 10px auto 20px auto;padding-bottom: 0;    text-align: -webkit-center;}
-.pack-pages .pages-balloon{padding: 0;font-size: 12px;}
-.pack-pages .pages-balloon .price {font-size: 16px;}
-.box .button{margin: 0 !important;}
-.box .button p{line-height: 150% !important;}
-.box .button p span {font-size: 10px;background-size: 6px auto; padding-left: 10px;}
-.shiyou { float: none; margin: 0 auto;}
-img.contact-baner-p {width:280px;height:auto;}
-h2.title,.post h2{font-size: 18px;}
-.post h3,.post-single h2,h3.title{font-size: 16px;}
-.single .w-back{padding:20px 10px 15px 10px;}
-#fooder-h2{padding: 30px 0 0 0;}
-.blog-box {padding: 20px 10px 10px 10px;}
-.card-plan-img .card-plan-img-left{width: 110px;}
-.card-plan-img .card-plan-img-right{width: 90px;}
-.card-plan-title ul li{text-align: center;}
-.card-plan-title ul li span{display: block;margin: 0 auto 3px auto;}
-.top-menu-box3{padding-top: 45px !important;}
-#top-menu-list #period{left: 0;}
-.contact-baner h3 {font-size: 16px;}
-.contact-baner h3:before {left: -12px;}
-.contact-baner .toconatct {margin: 5px auto 0;}
-.clickchomo{width: 70px;height: auto;margin-right: -20px;}
-.contact-robo {width: 62px;}
-.price-nav .price-nav-button-inner {padding: 10px 0;}
-
-
-
+	 br.br420{display: inline;}
+	#mainImg{ width:100%; height:auto;}
+	#mainImg h2.mainimage-title {font-size: 16px;margin: 0 auto 15px auto;width: 96%;}
+	.top-info h3.top-info-h3{font-size: 18px;margin: 0 0 20px 0;min-height: 14px;}
+	.top-info h3.top-info-h3 img.img-inline {margin: 0 5px;width: 20px;height: auto;}
+	.top-info-post h4.title {padding: 15px 5px !important;font-size: 14px;}
+	.top-works-title{text-align: center;}
+	.top-works-title h2 img{display: block;margin: 0 auto;}
+	#top-works ul li{width: 48%;margin: 0 1% 15px;}
+	.photo-link{ float:none; margin:0 auto;}
+	.shiyou{ width:280px;}
+	.price-nav .price-nav-button p span{display: none;}
+	.pack-box img.pack-title {width:100%;height:auto;}
+	.pack-pages {display: block;    text-align: center;    margin: 10px auto 20px auto;padding-bottom: 0;    text-align: -webkit-center;}
+	.pack-pages .pages-balloon{padding: 0;font-size: 12px;}
+	.pack-pages .pages-balloon .price {font-size: 16px;}
+	.box .button{margin: 0 !important;}
+	.box .button p{line-height: 150% !important;}
+	.box .button p span {font-size: 10px;background-size: 6px auto; padding-left: 10px;}
+	.shiyou { float: none; margin: 0 auto;}
+	img.contact-baner-p {width:280px;height:auto;}
+	h2.title,.post h2{font-size: 18px;}
+	.post h3,.post-single h2,h3.title{font-size: 16px;}
+	.single .w-back{padding:20px 10px 15px 10px;}
+	#fooder-h2{padding: 30px 0 0 0;}
+	.blog-box {padding: 20px 10px 10px 10px;}
+	.card-plan-img .card-plan-img-left{width: 110px;}
+	.card-plan-img .card-plan-img-right{width: 90px;}
+	.card-plan-title ul li{text-align: center;}
+	.card-plan-title ul li span{display: block;margin: 0 auto 3px auto;}
+	.top-menu-box3{padding-top: 45px !important;}
+	#top-menu-list #period{left: 0;}
+	.contact-baner h3 {font-size: 16px;}
+	.contact-baner h3:before {left: -12px;}
+	.contact-baner .toconatct {margin: 5px auto 0;}
+	.clickchomo{width: 70px;height: auto;margin-right: -20px;}
+	.contact-robo {width: 62px;}
+	.price-nav .price-nav-button-inner {padding: 10px 0;}
 }
 @media only screen and (max-width: 350px){ 
-#header h2 img{width:160px;}
-.top-left,.top-right{ width:90%; margin:0 5% 20px 5%;}
-.footer-info{ float:none; margin:0 auto;}
-.price-area img.img-inline{width: 38px;height: auto;}
-.syntaxhighlighter{padding:10px 0;}
-.top-info-post h4 img.top-info-post-img1 {left: 0;top: -25px;}
-.contact-baner h3:before {width: 50px;height: 38px;}
-.contact-baner h3 {font-size: 14px;}
-.template_list {display: block;}
-.box {width: 200px;display: block;margin: 0 auto 30px;}
-.box img.box_img {margin: 0 auto 5px;}
+	#header h2 img{width:160px;}
+	.top-left,.top-right{ width:90%; margin:0 5% 20px 5%;}
+	.footer-info{ float:none; margin:0 auto;}
+	.price-area img.img-inline{width: 38px;height: auto;}
+	.syntaxhighlighter{padding:10px 0;}
+	.top-info-post h4 img.top-info-post-img1 {left: 0;top: -25px;}
+	.contact-baner h3:before {width: 50px;height: 38px;}
+	.contact-baner h3 {font-size: 14px;}
+	.template_list {display: block;}
+	.box {width: 200px;display: block;margin: 0 auto 30px;}
+	.box img.box_img {margin: 0 auto 5px;}
 }

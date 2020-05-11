@@ -73,10 +73,6 @@
 		</div>
 		
 		<div class="top-menu-box top-menu-box3">
-		<!--	<div id="period">
-				<p>2017年<br>12月末まで</p>
-			</div>
-		-->
 			<div class="top-menu-box-inner">
 				<img src="<?php bloginfo('template_url'); ?>/images/top-card.png" alt="" width="269" height="66" class="top-menu-img" />
 				<p class="menu-lead">ホームページ一緒に<br>ショップカードも欲しい!</p>
@@ -95,13 +91,18 @@
 		      <h2><img src="<?php bloginfo('template_url'); ?>/images/works-title.png" width="142" height="30" alt="子供・女性向けかわいいホームページ制作Sourire web studioの過去のホームページ制作実績" class="works-titleimg"><span>過去のホームページ制作実績</span></h2>
 		      <a href="https://sourire-web-studio.com/works/" class="toworks over"><img src="<?php bloginfo('template_url'); ?>/images/toworks.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioのホームページ制作実績の一覧ページへ" class="aligncenter size-full wp-image-2040" width="128" height="13"></a>
 		   </div>
-		   <ul class="flex-area">
-			    <li><a class="over" href="https://sourire-web-studio.com/works/sos/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/sos-min.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="142" height="95"></a></li>
-			    <li><a class="over" href="https://sourire-web-studio.com/works/verde/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/verde-min.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="142" height="95"></a></li>
-			    <li><a class="over" href="https://sourire-web-studio.com/works/f-law/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/f-law-min.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" class="aligncenter size-full attachment4" width="142" height="95"></a></li>
-			    <li><a href="https://sourire-web-studio.com/works/houmu/" rel="" class="over" ><img src="<?php bloginfo('template_url'); ?>/images/works-thum/fukui-houmu-min.png" alt="制作実績。" class="aligncenter size-full" width="142" height="95"></a></li>
-			    <li><a class="over" href="https://sourire-web-studio.com/works/cocohomare/" rel=""><img class="aligncenter size-full attachment1" src="<?php bloginfo('template_url'); ?>/images/works-thum/cocohomare-min.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="142" height="95"></a></li>
-			    <li><a class="over" href="https://sourire-web-studio.com/works/merciherbe/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/merciherbe.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" class="aligncenter size-full attachment3" width="142" height="95"></a></li>
+		   <ul class="flex-area flex-area-left">
+			    <li><a class="over" href="https://sourire-web-studio.com/works/omusubi/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/nigaoe-1.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="218" height="146"></a></li>
+			    <li><a class="over" href="https://sourire-web-studio.com/works/sos/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/sos-1.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="218" height="146"></a></li>
+			    <li><a class="over" href="https://sourire-web-studio.com/works/verde/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/verde-1.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="218" height="146"></a></li>
+			    <li><a class="over" href="https://sourire-web-studio.com/works/karino/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/karino-1.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="218" height="146"></a></li>
+			    <li><a class="over" href="https://sourire-web-studio.com/works/central/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/central-1.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="218" height="146"></a></li>
+			    <li><a class="over" href="https://sourire-web-studio.com/works/f-law/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/f-law1.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" class="aligncenter size-full attachment4" width="218" height="146"></a></li>
+			    <li><a href="https://sourire-web-studio.com/works/houmu/" rel="" class="over" ><img src="<?php bloginfo('template_url'); ?>/images/works-thum/fukui-houmu.png" alt="制作実績。" class="aligncenter size-full" width="218" height="146"></a></li>
+			    <li><a class="over" href="https://sourire-web-studio.com/works/cocohomare/" rel=""><img class="aligncenter size-full attachment1" src="<?php bloginfo('template_url'); ?>/images/works-thum/cocohomare.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" width="218" height="146"></a></li>
+			    <li><a class="over" href="https://sourire-web-studio.com/works/merciherbe/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/merciherbe-1.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" class="aligncenter size-full attachment3" width="218" height="146"></a></li>
+			    <li><a class="over" href="https://sourire-web-studio.com/works/queue/" rel=""><img src="<?php bloginfo('template_url'); ?>/images/works-thum/queue-1.png" alt="子供・女性向けかわいいホームページ制作Sourire web studioの制作実績。" class="aligncenter size-full attachment3" width="218" height="146"></a></li>
+			    
 		   </ul>
 	</div>
 
