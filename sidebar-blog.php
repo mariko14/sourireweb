@@ -47,13 +47,13 @@ foreach($date as $post):?>
 	            </a>
 	        </li>
 			        <li class="ranking-4">
-	            <a href="https://sourire-web-studio.com/blog/webdesign/webdedign-school/">
+	            <a href="https://sourire-web-studio.com/blog/design/new-business_card/">
 	                <div class="cms-nav-img">
-	                    <img src="/wp-content/uploads/2014/03/adobesoft.jpg" width="500" height="327" alt="WEBデザイナーになるには、スクールに行かないといけないの？" class="object-fit-img">
+	                    <img src="/wp-content/uploads/2019/06/c5b9b2874e4db432d3fc5199cd8f89dc-200x150.jpg" width="500" height="327" alt="WEBデザイナー8年生を機に、NEW名刺を作りました" class="object-fit-img">
 	                </div>
 	                <div class="cms-nav-txt">
-	                    <div class="cms-nav-tit">WEBデザイナーになるには、スクールに行かないといけないの？</div>
-	                    <div class="cms-nav-date">2014/03/28 </div>
+	                    <div class="cms-nav-tit">WEBデザイナー8年生を機に、NEW名刺を作りました</div>
+	                    <div class="cms-nav-date">2019/06/21 </div>
 	                </div>
 	            </a>
 		</ul>
@@ -84,7 +84,7 @@ foreach($date as $post):?>
 	<section id="text-3" class="widget widget_text">
 		<h3><span>対応地域</span></h3>
 		<div class="textwidget">
-			<p>明石市・神戸市・西宮市・尼崎市、芦屋市・加古川市・姫路市等兵庫県南部や大阪府などは直接お会いして打ち合わせが可能です。<br>遠方の方からのご依頼も承っております！電話・メールで対応が可能です。 お気軽にご相談下さい。</p>
+			<p>明石市・神戸市・西宮市・尼崎市、芦屋市・加古川市・姫路市等兵庫県南部や大阪府などは直接お会いして打ち合わせが可能です。<br>遠方の方からのご依頼も承っております！電話・メール・オンラインで対応が可能です。 お気軽にご相談下さい。</p>
 	</div>
 	</section>
 </aside>

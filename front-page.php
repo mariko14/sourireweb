@@ -32,7 +32,7 @@
 			<p>明石市から神戸市に引っ越しました、<br class="br420">２児の母です。しゃべることが好きな<br class="br420">おカーチャンです。</p>
 			<p>女性・母親ならではの<br class="br420">かわいい・<strong>女性らしいデザイン</strong>が<br class="br420">得意です。</p>
 			<p>2012年よりフリーランスの<br class="br420">WEBデザイナーとして活動中。</p>
-			<p>兵庫・大阪は直接お会いしての<br class="br420">打ち合わせが可能ですが、<br>メールでのお問い合わせは<br class="br420">全国どこからでもお待ちしています！</p>
+			<p>兵庫・大阪は直接お会いしての<br class="br420">打ち合わせが可能ですが、<br>メールなどオンラインでのお問い合わせは<br class="br420">全国どこからでもお待ちしています！</p>
 			<p>女性制作ギルド秘密結社Qrious所属。</p>
 			<a href="https://sourire-web-studio.com/about/" class="more-about over" title="デザイナー紹介"><img src="<?php bloginfo('template_url'); ?>/images/kuwashiku.jpg" width="67" height="57" alt="子供・女性向けかわいいホームページ制作Sourire web studioのデザイナー自己紹介の詳しくはこちら" /></a>
 		</div>

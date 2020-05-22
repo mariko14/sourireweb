@@ -3,7 +3,7 @@
 Theme Name: sourireweb
 Theme URL: https://sourire-web-studio.com/
 Author: Mariko
-Version: 1.0.4
+Version: 1.0.5
 */
 
 html {-webkit-text-size-adjust: 100%}
@@ -493,6 +493,7 @@ justify-content:space-between;-webkit-box-pack:justify;-ms-flex-pack:justify;-we
 .read-404{font-size: 20px;color: #6A3225;}
 .page404 img{margin: 20px auto;display: block;max-width: 360px;width: 100%;height: auto;}
 .page404 .button{display: block;width: 200px;margin: 0 auto;line-height: 50px !important;}
+#formWrapper table th {white-space: nowrap;}
 /*カードプラン*/
 h2.card-title{background: url(images/mainimage-line.png) repeat-x left bottom !important;}
 h2.card-title span{background: none !important;}
