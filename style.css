@@ -3,7 +3,7 @@
 Theme Name: sourireweb
 Theme URL: https://sourire-web-studio.com/
 Author: Mariko
-Version: 1.0.5
+Version: 1.0.6
 */
 
 html {-webkit-text-size-adjust: 100%}
@@ -494,6 +494,7 @@ justify-content:space-between;-webkit-box-pack:justify;-ms-flex-pack:justify;-we
 .page404 img{margin: 20px auto;display: block;max-width: 360px;width: 100%;height: auto;}
 .page404 .button{display: block;width: 200px;margin: 0 auto;line-height: 50px !important;}
 #formWrapper table th {white-space: nowrap;}
+.post-single iframe{display: block;margin: 0 auto 15px !important;}
 /*カードプラン*/
 h2.card-title{background: url(images/mainimage-line.png) repeat-x left bottom !important;}
 h2.card-title span{background: none !important;}
@@ -797,6 +798,7 @@ h2.card-title img.img-inline{margin: 0 auto 5px auto;}
 #contact-form table th,#contact-form table td{display:block;width:100%;float:left;box-sizing:border-box;}
 input[type="text"], textarea, input[type="email"], input[type="url"], input[type="tel"]{width:96%;}
 select{line-height:50px;height:50px;}
+.post-single iframe {width: 400px;height: 220px;}
 }
 @media only screen and (max-width: 489px){ 
 	br.br489{display: inline;}
@@ -874,6 +876,7 @@ select{line-height:50px;height:50px;}
 	.clickchomo{width: 70px;height: auto;margin-right: -20px;}
 	.contact-robo {width: 62px;}
 	.price-nav .price-nav-button-inner {padding: 10px 0;}
+	.post-single iframe {width: 320px;height: auto;}
 }
 @media only screen and (max-width: 350px){ 
 	#header h2 img{width:160px;}
@@ -887,4 +890,5 @@ select{line-height:50px;height:50px;}
 	.template_list {display: block;}
 	.box {width: 200px;display: block;margin: 0 auto 30px;}
 	.box img.box_img {margin: 0 auto 5px;}
+	.post-single iframe {width: 300px;height: 180px;}
 }
