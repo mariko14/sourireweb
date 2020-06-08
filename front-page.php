@@ -10,7 +10,7 @@
 			  	</h2>
 			<div class="main_p">
 			     <p>女性デザイナーならではの感性で、<br>女性・子供をターゲットにした<br class="br420">中小企業様・起業家様・個人事業主様や<br class="br420">保育園や幼稚園のホームページ制作をしています。<br>柔らかくかわいいデザインを得意とし、<br>『女心と母心』を持って<br class="br420">女性のココロを動かす<br>"効果の出せる"ホームページの企画・制作をいたします！</p>
-			     <p>ホームページ・ネットショップ・<br class="br420">ブログカスタマイズなど。<br>あなたのサロン・ショップなどを<br>もっと魅力的に<br class="br420">アピールしていきましょう！</p>
+			     <p>ホームページ・ネットショップ・<br class="br420">ブログカスタマイズなど。<br>あなたのサロン・ショップなどを<br>他とは違う可愛さでもっと魅力的に<br class="br420">アピールしていきましょう！</p>
 	   		</div>
         </div>
 </div>
@@ -20,7 +20,7 @@
  	<div class="top-info">
 	 	
 		<div class="top-concept">
-				<h3 class="top-info-h3 first"><img class="img-inline" src="<?php bloginfo('template_url'); ?>/images/icon-clover.png" width="36" height="34" alt="" /><span>女性だからこそできる、<br class="br680">ホームページ制作があります</span><img class="img-inline" src="<?php bloginfo('template_url'); ?>/images/icon-clover.png" width="36" height="34" alt="" /></h3>
+				<h3 class="top-info-h3 first"><img class="img-inline" src="<?php bloginfo('template_url'); ?>/images/icon-clover.png" width="36" height="34" alt="" /><span>女性だからこそできる、<br class="br680">かわいいだけじゃないホームページ制作</span><img class="img-inline" src="<?php bloginfo('template_url'); ?>/images/icon-clover.png" width="36" height="34" alt="" /></h3>
 				<p>Sourire web studio(ｽﾘｰﾙｳｪﾌﾞｽﾀｼﾞｵ)は<br class="br420">兵庫県神戸市でホームページ制作を<br class="br420">主な業務としている<br>フリーランスの女性デザイナーです。</p>
 				<p>「ホームページを作りたいけどよくわからない」<br class="br420">「パソコンも良くわからないし・・・」 <br>そんな方でも安心してください！ </p>
 				<p>お客さまのホームページを、<br class="br420">効果が出るよう続けて『育てて』いける仕組みをご提案！<br>公開後のサポートも行なっております。</p>
@@ -49,40 +49,29 @@
  	
  	
  	
-	<div id="top-menu-list" class="cont-box">
-		<div class="top-menu-box top-menu-box1">
+	<div id="top-menu-list" class="cont-box flex-area-center">
+		<a href="https://sourire-web-studio.com/flowprice/#templateplan" class="top-menu-box top-menu-box1">
 			<div class="top-menu-box-inner">
 				<img src="<?php bloginfo('template_url'); ?>/images/temp-2.png" alt="" width="182" height="68" class="top-menu-img" />
 				<p class="menu-lead">初期費用をおさえて<br>セミオリジナルのホームページを</p>
 				<h3 class="pack-name pack-name-pc"><span class="marker-w">テンプレートプラン</span></h3>
 				<p class="price">初期費用　69,000円(税抜)</p>
 				<p class="min">(レスポンシブ対応にてスマホ対応)</p>
-				<a class="temp-pc" href="https://sourire-web-studio.com/flowprice/#templateplan"><span>詳しくはこちら</span></a>
+				<div class="temp-pc"><span>詳しくはこちら</span></div>
 			</div>
-		</div>
+		</a>
 		
-		<div class="top-menu-box top-menu-box2">
+		<a href="https://sourire-web-studio.com/flowprice/#pack_price" class="top-menu-box top-menu-box2">
 			<div class="top-menu-box-inner">
 				<img src="<?php bloginfo('template_url'); ?>/images/top-pack.png" alt="" width="138" height="70" class="top-menu-img" />
 				<p class="menu-lead">ページ数で選べる！オリジナルデザインで<br>お得なパックプラン</p>
 				<h3 class="pack-name pack-name-pc"><span class="marker-w">パックプラン</span></h3>
 				<p class="price">150,000円(税抜)から</p>
 				<p class="min">(スマホ対応。5ページまでの場合)</p>
-				<a class="temp-pc" href="https://sourire-web-studio.com/flowprice/#pack_price"><span>詳しくはこちら</span></a>
+				<div class="temp-pc" ><span>詳しくはこちら</span></div>
 			</div>
-		</div>
+		</a>
 		
-		<div class="top-menu-box top-menu-box3">
-			<div class="top-menu-box-inner">
-				<img src="<?php bloginfo('template_url'); ?>/images/top-card.png" alt="" width="269" height="66" class="top-menu-img" />
-				<p class="menu-lead">ホームページ一緒に<br>ショップカードも欲しい!</p>
-				<h3 class="pack-name pack-name-pc"><span class="marker-w">ショップカード付きプラン</span></h3>
-				<p class="price">各プランに+10,000円(税抜)</p>
-				<p class="min">(各種オプションあり)</p>
-				<a class="temp-pc" href="https://sourire-web-studio.com/flowprice/card-plan/"><span>詳しくはこちら</span></a>
-			</div>
-		</div>
-	
 	</div>
 
 

@@ -3,7 +3,7 @@
 Theme Name: sourireweb
 Theme URL: https://sourire-web-studio.com/
 Author: Mariko
-Version: 1.0.6
+Version: 1.0.7
 */
 
 html {-webkit-text-size-adjust: 100%}
@@ -82,8 +82,24 @@ input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,
 #mainImg h2.mainimage-title span{display: inline-block;}
 #mainImg h2.mainimage-title .img-inline{vertical-align: sub;}
 #mainImg p{margin-top:30px;}
-#mainImg .main_p{ background:url(images/robo.jpg) no-repeat right bottom; line-height:160%; color:#685B53; }
-#mainImg .main_p p{ margin-bottom:20px;}
+#mainImg .main_p{line-height:160%; color:#685B53;position: relative;}
+#mainImg .main_p:before{
+	content: '';
+	display: block;
+	background:url(images/robo.jpg) no-repeat right bottom;
+	background-size: 100% auto;
+	width: 48px;
+	height: 65px;
+	position: absolute;
+	bottom: 0;
+	right: -20px;
+	z-index: 0;
+}
+#mainImg .main_p p{
+	margin-bottom:20px;
+	position: relative;
+	z-index: 100;
+}
 h2.title,.post h2{clear: both;margin: 0 0 20px;padding: 45px 0 20px 105px;font-size: 21px;color: #6A3225;background: url(images/h2title.png) no-repeat left center;background-size: 100px auto;font-weight: bold;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;}
 h2.first,h3.first{margin-top:0 !important;}
 .post h3,.post-single h2{  margin:20px 0 15px 0; font-size:20px; font-weight:bold; color:#665D52; background:url(images/h3.png) no-repeat left center; padding: 40px 0 15px 100px; min-height:55px;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;}
@@ -226,10 +242,46 @@ ul.thumb h3:hover span{background:#e3dfc4;}
 .top-concept{ background:url(images/concept.png) no-repeat left bottom; margin:0 auto 40px auto;padding: 0 0 0 230px;min-height: 265px;}
 .top-profile{ display:block;background:url(images/about_top.jpg) no-repeat right bottom;padding: 0 95px 0 0;margin:0 auto 50px auto;position: relative;}
 .top-profile .more-about{display: block;position: absolute;right: 144px;bottom: 0;line-height: 100%;}
-#top-menu-list{display: flex;display:-webkit-flex;display:-ms-flexbox;
-justify-content:space-between;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;
-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;-webkit-align-items:flex-start;}
-#top-menu-list .top-menu-box{width: 300px;height: 258px;display: block;margin-bottom: 20px;position: relative;background: url(images/tebp-back-pc.png) no-repeat center top;text-align: center;padding: 15px 0 0 0;background-size: 100% 100%;}
+#top-menu-list{position: relative;margin: 0 auto 40px;}
+#top-menu-list:before{
+	box-sizing: border-box;
+    content: '';
+    display: block;
+    background: url(images/mainimage.jpg) no-repeat center top;
+    background-size: 100% auto;
+    width: 300px;
+    height: 210px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.4;
+}
+#top-menu-list .top-menu-box{
+	width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 15px 0;
+    position: relative;
+    background: url(images/tebp-back-pc.png) no-repeat center top;
+    text-align: center;
+    padding: 30px 0 60px 0;
+    background-size: 100% 100%;
+    z-index: 100;
+}
+#top-menu-list .top-menu-box > *{text-decoration: none ;}
+#top-menu-list .top-menu-box1:before{
+	box-sizing: border-box;
+    content: '';
+    display: block;
+    background: url(images/contact-banner-img.png) no-repeat center top;
+    background-size: 100% auto;
+    width: 64px;
+    height: 47px;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+}
 #top-menu-list #period{background: url(images/period.png) no-repeat center top;width: 82px;height: 71px;position: absolute;top: -46px;margin: auto;left: 0;right: 0;}
 #top-menu-list #period p{padding: 17px 0 0 0;text-align: center;line-height: 130%;color: #6a3225;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;font-size: 14px;}
 #top-menu-list .top-menu-img{display: block;margin: 0 auto;}
@@ -247,8 +299,8 @@ align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;-w
 .top-works-title .toworks:hover{background: url(images/pack-back.jpg) repeat left top;}
 .top-works-title .toworks img{margin: 0 !important;}
 #top-works ul{width:100%;margin:0 auto;flex-wrap:wrap;-ms-flex-wrap:wrap;-webkit-flex-wrap:wrap;}
-#top-works ul li{width: 24%;margin: 0 0.5% 10px;}
-#top-works ul li img{display: block;width: 100%;height: auto;}
+#top-works ul li{width: 32%;margin: 0 0.5% 20px;}
+#top-works ul li img{display: block;width: 100%;height: auto;margin: 0;}
 .top-link{font-size:16px; font-weight:bold; background:url(images/houses.jpg) no-repeat left bottom; padding-bottom:65px; overflow:hidden; margin-bottom:30px;}
 .top-link a{ display:block; background:url(images/list_b-min.png) no-repeat left 9px; font-size:20px; font-weight:bold; padding-left:16px;}
 .link-price{ width:234px; height:138px; background:url(images/flow_cloud.jpg) no-repeat center center; margin:0 auto;padding: 46px 0 0 39px;}
@@ -650,11 +702,21 @@ section.widget_search{text-align:center;}
 #footer ul{ padding-top:20px;}
 #footer ul ul{padding-top:0;border:0;}
 .side-list li ul li a br{display: none;}
-#top-menu-list{align-items: stretch;margin: 0 15px 40px 15px;}
-#top-menu-list .top-menu-box{width:30%;height: auto;display: block;margin: 0 auto 10px auto;background: url(images/formback.jpg) repeat left top;border-radius: 6px;padding: 40px 10px 0 10px;position: relative;}
+.top-info-post {margin: 0 auto 10px auto;}
+#top-menu-list{align-items: stretch;margin: 0 auto 40px;width: 92%;}
+#top-menu-list .top-menu-box{
+	width: 48%;
+    height: auto;
+    display: block;
+    margin: 0;
+    background: url(images/formback.jpg) repeat left top;
+    border-radius: 6px;
+    padding: 30px 10px 10px 10px;
+    position: relative;
+}
 #top-menu-list .temp-pc{position: initial;margin: 0 auto 10px auto;}
 .top-menu-box3 .top-menu-img{width: 100%;max-width: 269px;height: auto;}
-#top-menu-list .pack-name {font-size:18px;}
+#top-menu-list .pack-name {font-size:20px;}
 
 }
 @media only screen and (max-width: 940px){ 
@@ -667,7 +729,11 @@ section.widget_search{text-align:center;}
 .top-info h3.top-info-h3{border-bottom: 4px dotted #fff9ec;padding: 0 0 5px 0;margin: 0 0 20px 0;line-height: 140%;}
 .top-concept{background-size: 70px auto; padding: 100px 0 0 0;background-position: center top;}
 .top-profile{padding: 40px 0 0 0;background-position: center top;background-size: 69px auto;}
-.top-profile .more-about{position: initial;margin: 10px auto 0 auto;}
+.top-profile .more-about{
+	position: static;
+    margin: 10px auto 0 auto;
+    display: block;
+    width: 67px;}
 #top-works{width: 92%;margin: 0 auto 30px;padding: 40px 35px 10px 35px;}
 .top-works-title .toworks{    background: url(images/formback.jpg) repeat left top;}
 .footer-inner{ width:94%; margin:0 auto;}
@@ -679,9 +745,6 @@ section.widget_search{text-align:center;}
 #mainImg .left{ margin:0 auto 20px auto; height:auto;}
 .top-info-post h4 img.top-info-post-img1{position: absolute;left:2px;top: 0;}
 .top-info-post h4 img.top-info-post-img2{position: absolute;right:2px;bottom: 0;}
-#top-menu-list{display: block;}
-#top-menu-list .top-menu-box{width: auto;padding: 25px 10px 10px 10px;}
-#top-menu-list #period{top: -10px;left: 22px;right: auto;}
 }
 @media only screen and (max-width: 680px){ 
 br.br680{display: inline;}
@@ -711,8 +774,10 @@ img.alignright, img.alignleft{display: block;margin: 0 auto 15px auto;}
 .alignright,.alignleft{float:none;}
 .top-link{ background-size:96%; width:96%; margin:0 auto;}
 .link-qa,.link-contact{ margin-top:0;}
+#top-menu-list .top-menu-box {width: 49%;}
+#top-menu-list .menu-lead {font-size: 12px;}
 #top-works {padding: 36px 25px 15px 25px;}
-#top-works ul li{width: 32%;}
+#top-works ul li{width: 48%;}
 .news{ width:90%; margin:0 5%;}
 #banners p{ float:none; width:250px; height:auto; margin:0 auto 10px auto;}
 .baner1,.baner1 img{ width:250px; height:170px;}
@@ -803,6 +868,11 @@ select{line-height:50px;height:50px;}
 @media only screen and (max-width: 489px){ 
 	br.br489{display: inline;}
 	#header h2 img{width: 200px;display:block;margin:0 auto;}
+	#top-menu-list {display: block; }
+	#top-menu-list .top-menu-box {
+    width: 100%;
+    margin: 0 auto 30px;
+    padding: 20px 10px 10px 10px;}
 	#top-works { padding: 30px 15px 5px 15px;}
 	#content .date{font-size: 12px;}
 	#flow-list ul.flow-ul {display: block;margin: 0 auto 20px;}
@@ -847,6 +917,8 @@ select{line-height:50px;height:50px;}
 	.top-works-title{text-align: center;}
 	.top-works-title h2 img{display: block;margin: 0 auto;}
 	#top-works ul li{width: 48%;margin: 0 1% 15px;}
+	.info-news p time{display: block;}
+	.info-news span {padding-left: 0;}
 	.photo-link{ float:none; margin:0 auto;}
 	.shiyou{ width:280px;}
 	.price-nav .price-nav-button p span{display: none;}
