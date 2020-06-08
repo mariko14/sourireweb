@@ -20,7 +20,7 @@
  	<div class="top-info">
 	 	
 		<div class="top-concept">
-				<h3 class="top-info-h3 first"><img class="img-inline" src="<?php bloginfo('template_url'); ?>/images/icon-clover.png" width="36" height="34" alt="" /><span>女性だからこそできる、<br class="br680">かわいいだけじゃないホームページ制作</span><img class="img-inline" src="<?php bloginfo('template_url'); ?>/images/icon-clover.png" width="36" height="34" alt="" /></h3>
+				<h3 class="top-info-h3 first flex-area-center"><img class="img-inline" src="<?php bloginfo('template_url'); ?>/images/icon-clover.png" width="36" height="34" alt="" /><span>女性だからこそできる、<br class="br680">かわいいだけじゃない<br class="br420">ホームページ制作</span><img class="img-inline" src="<?php bloginfo('template_url'); ?>/images/icon-clover.png" width="36" height="34" alt="" /></h3>
 				<p>Sourire web studio(ｽﾘｰﾙｳｪﾌﾞｽﾀｼﾞｵ)は<br class="br420">兵庫県神戸市でホームページ制作を<br class="br420">主な業務としている<br>フリーランスの女性デザイナーです。</p>
 				<p>「ホームページを作りたいけどよくわからない」<br class="br420">「パソコンも良くわからないし・・・」 <br>そんな方でも安心してください！ </p>
 				<p>お客さまのホームページを、<br class="br420">効果が出るよう続けて『育てて』いける仕組みをご提案！<br>公開後のサポートも行なっております。</p>

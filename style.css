@@ -3,7 +3,7 @@
 Theme Name: sourireweb
 Theme URL: https://sourire-web-studio.com/
 Author: Mariko
-Version: 1.0.7
+Version: 1.0.8
 */
 
 html {-webkit-text-size-adjust: 100%}
@@ -75,7 +75,7 @@ input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,
 #header h1{ padding:10px 0 0 3px; color:#3B2814; font-size:12px; font-weight:normal;}
 #header h2{ clear:both; position:relative; zoom:1; z-index:100; margin:0 auto; width:232px;}
 #header h2 a{ display:block;}
-#mainImg{ line-height:0; z-index:0; width:980px; margin:0 auto 60px auto; height:auto;overflow: hidden;position: relative;z-index: 0;display:flex;-js-display: flex;display:-webkit-flex;display:-ms-flexbox;align-items: center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;}
+#mainImg{ line-height:0; z-index:0; width:980px; margin:0 auto 60px auto; height:auto;position: relative;z-index: 0;display:flex;-js-display: flex;display:-webkit-flex;display:-ms-flexbox;align-items: center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;}
 #mainImg .main{width: 420px;margin: 0 20px;}
 #mainImg .mainimage-right{flex: 2;-webkit-box-flex:2;-ms-flex:2;}
 #mainImg h2.mainimage-title{text-align: center;color: #695c54;font-size: 24px;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;background:url(images/mainimage-line.png) no-repeat center bottom;padding: 0 0 19px 0;}
@@ -88,11 +88,11 @@ input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,
 	display: block;
 	background:url(images/robo.jpg) no-repeat right bottom;
 	background-size: 100% auto;
-	width: 48px;
+	width: 81px;
 	height: 65px;
 	position: absolute;
 	bottom: 0;
-	right: -20px;
+	right: -40px;
 	z-index: 0;
 }
 #mainImg .main_p p{
@@ -247,7 +247,7 @@ ul.thumb h3:hover span{background:#e3dfc4;}
 	box-sizing: border-box;
     content: '';
     display: block;
-    background: url(images/mainimage.jpg) no-repeat center top;
+    background: url(images/mainimage.png) no-repeat center top;
     background-size: 100% auto;
     width: 300px;
     height: 210px;
@@ -268,8 +268,8 @@ ul.thumb h3:hover span{background:#e3dfc4;}
     padding: 30px 0 60px 0;
     background-size: 100% 100%;
     z-index: 100;
+	text-decoration: none !important;
 }
-#top-menu-list .top-menu-box > *{text-decoration: none ;}
 #top-menu-list .top-menu-box1:before{
 	box-sizing: border-box;
     content: '';
@@ -281,6 +281,9 @@ ul.thumb h3:hover span{background:#e3dfc4;}
     position: absolute;
     left: -20px;
     top: -10px;
+}
+#top-menu-list .top-menu-box:hover{
+	opacity: 0.8;
 }
 #top-menu-list #period{background: url(images/period.png) no-repeat center top;width: 82px;height: 71px;position: absolute;top: -46px;margin: auto;left: 0;right: 0;}
 #top-menu-list #period p{padding: 17px 0 0 0;text-align: center;line-height: 130%;color: #6a3225;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;font-size: 14px;}
@@ -637,86 +640,89 @@ a#menu{display:none !important;}
 .panel ul li:hover ul li:last-child{ border:0; border-radius:0 0 6px 6px;}
 }
 @media only screen and (max-width:1024px){
-#header{ margin-bottom: -20px; height:auto; overflow:hidden;}
-nav#mainNav{ clear:both; width:100%; margin:10px auto 0 auto; padding:20px 0; position:relative; z-index:10;}
-nav#mainNav .inner{width:95%;}
-nav#mainNav a.menu{ width:100%; display:block; height:40px; line-height:40px; font-weight: bold; text-align:left; color:#F0E6CD; background:url(images/button_back_h.jpg) repeat left top;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;}
-nav#mainNav a.menu span{padding-left:20px; margin-left:10px; background: url(images/list_w.png) no-repeat center left;}
-nav#mainNav a.menuOpen span{ background: url(images/menu_under.png) no-repeat center left;}
-nav#mainNav a.menuOpen{ border-bottom:0;}
-nav#mainNav a#menu:hover{cursor:pointer;}
-nav .panel{ display: none; width:100%; position: relative; right: 0; top:0; z-index: 11;}
-.panel ul{margin:0;padding:0;}
-.panel ul li img{display: none;}
-.panel ul li span.pc-no{display: inline;}
-.panel ul li{ float: none; clear:both; width:100%; height:auto; line-height:1.2; border:1px dotted #D3C9A4;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;}
-.panel ul li a,.panel ul li.current-menu-item li a{ display: block; width:100%; padding:1em 0; text-align:left; background:url(images/background.jpg) repeat left top;}
-.panel ul li.current-menu-item a,.panel ul li.current-menu-item a{ color:#F18F23; text-decolation:none;}
-.panel ul li a span{padding-left:1em;}
-.panel ul li.current-menu-item a,.panel ul li a:hover,.panel ul li.current-menu-item a,.panel ul li a:active, .panel ul li li.current-menu-item a, .panel ul li.current-menu-item li a:hover, .panel ul li.current-menu-item li a:active{ background:url(images/menu_li.jpg) repeat left top;}
-.panel ul li li{ float:left; border: dotted #D3C9A4;  border-width: 1px 1px 0 1px;}
-.panel ul li li a{background:url(images/background.jpg) repeat left top;}
-.panel ul li li a span, .panel ul li.current-menu-item li a span, .panel ul li li.current-menu-item a span{background:url(images/sub1.png) no-repeat 20px 50%;}
-.panel ul li li a:hover, .panel ul li.current-menu-item li a:hover,.panel ul li.current-menu-item li:last-child a:hover, .panel ul li.current-menu-item li a{  background: url(images/menu_li.jpg) repeat left top;}
-.panel ul li li a:hover span, .panel ul li.current-menu-item li a:hover span{background:url(images/sub1.png) no-repeat 20px 50%;}
-.panel ul li li:last-child a span{background:url(images/subLast.png) no-repeat 20px 50%;}
-.panel ul li li:last-child a:hover span,.panel ul li.current-menu-item li:last-child a:hover span{background:url(images/subLast.png) no-repeat 20px 50%;}
-.panel ul li li a span{padding-left:35px;}
-.panel ul li li li a span{padding-left:55px;}
-.panel ul li li li a span,.panel ul li li li a:hover span,.panel ul li li li.current-menu-item a span,.panel ul li  li.current-menu-item li a span,.panel ul li  li.current-menu-item li a:hover span{background:url(images/sub1.png) no-repeat 40px 50%;}
-.panel ul li li li:last-child a span,.panel ul li li li:last-child a:hover span,.panel ul li li.current-menu-item li:last-child a:hover span{background:url(images/subLast.png) no-repeat 40px 50%;}
-.panel ul li li li{ border-width: 1px 0 0 0;}
-
-nav div.panel{float:none;}
-#mainImg{margin-bottom:20px;}
-.top-link{max-width:625px; margin:0 auto 30px auto;}
-.pan{ padding:0 2%;}
-.single .post img.photo-375{max-width:375px;height:auto;}
-.footer-logo img{display:glock;margin:0 auto 10px;}
+	#header{ margin-bottom: -20px; height:auto; overflow:hidden;}
+	nav#mainNav{ clear:both; width:100%; margin:10px auto 0 auto; padding:20px 0; position:relative; z-index:10;}
+	nav#mainNav .inner{width:95%;}
+	nav#mainNav a.menu{ width:100%; display:block; height:40px; line-height:40px; font-weight: bold; text-align:left; color:#F0E6CD; background:url(images/button_back_h.jpg) repeat left top;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;}
+	nav#mainNav a.menu span{padding-left:20px; margin-left:10px; background: url(images/list_w.png) no-repeat center left;}
+	nav#mainNav a.menuOpen span{ background: url(images/menu_under.png) no-repeat center left;}
+	nav#mainNav a.menuOpen{ border-bottom:0;}
+	nav#mainNav a#menu:hover{cursor:pointer;}
+	nav .panel{ display: none; width:100%; position: relative; right: 0; top:0; z-index: 11;}
+	.panel ul{margin:0;padding:0;}
+	.panel ul li img{display: none;}
+	.panel ul li span.pc-no{display: inline;}
+	.panel ul li{ float: none; clear:both; width:100%; height:auto; line-height:1.2; border:1px dotted #D3C9A4;font-family: "I-OTF-UDゴ表示Pro M",IwaUDGoDspPro-Md;}
+	.panel ul li a,.panel ul li.current-menu-item li a{ display: block; width:100%; padding:1em 0; text-align:left; background:url(images/background.jpg) repeat left top;}
+	.panel ul li.current-menu-item a,.panel ul li.current-menu-item a{ color:#F18F23; text-decolation:none;}
+	.panel ul li a span{padding-left:1em;}
+	.panel ul li.current-menu-item a,.panel ul li a:hover,.panel ul li.current-menu-item a,.panel ul li a:active, .panel ul li li.current-menu-item a, .panel ul li.current-menu-item li a:hover, .panel ul li.current-menu-item li a:active{ background:url(images/menu_li.jpg) repeat left top;}
+	.panel ul li li{ float:left; border: dotted #D3C9A4;  border-width: 1px 1px 0 1px;}
+	.panel ul li li a{background:url(images/background.jpg) repeat left top;}
+	.panel ul li li a span, .panel ul li.current-menu-item li a span, .panel ul li li.current-menu-item a span{background:url(images/sub1.png) no-repeat 20px 50%;}
+	.panel ul li li a:hover, .panel ul li.current-menu-item li a:hover,.panel ul li.current-menu-item li:last-child a:hover, .panel ul li.current-menu-item li a{  background: url(images/menu_li.jpg) repeat left top;}
+	.panel ul li li a:hover span, .panel ul li.current-menu-item li a:hover span{background:url(images/sub1.png) no-repeat 20px 50%;}
+	.panel ul li li:last-child a span{background:url(images/subLast.png) no-repeat 20px 50%;}
+	.panel ul li li:last-child a:hover span,.panel ul li.current-menu-item li:last-child a:hover span{background:url(images/subLast.png) no-repeat 20px 50%;}
+	.panel ul li li a span{padding-left:35px;}
+	.panel ul li li li a span{padding-left:55px;}
+	.panel ul li li li a span,.panel ul li li li a:hover span,.panel ul li li li.current-menu-item a span,.panel ul li  li.current-menu-item li a span,.panel ul li  li.current-menu-item li a:hover span{background:url(images/sub1.png) no-repeat 40px 50%;}
+	.panel ul li li li:last-child a span,.panel ul li li li:last-child a:hover span,.panel ul li li.current-menu-item li:last-child a:hover span{background:url(images/subLast.png) no-repeat 40px 50%;}
+	.panel ul li li li{ border-width: 1px 0 0 0;}
+	
+	nav div.panel{float:none;}
+	#mainImg{margin-bottom:20px;}
+	.top-link{max-width:625px; margin:0 auto 30px auto;}
+	.pan{ padding:0 2%;}
+	.single .post img.photo-375{max-width:375px;height:auto;}
+	.footer-logo img{display:glock;margin:0 auto 10px;}
 }
 @media only screen and (max-width: 959px){ 
-#wrapper, #header, .inner,.footer-inner{width:100%;height: auto;}
-.single .wp-caption {width:100% !important;height: auto;}
-#header h1{padding:10px;}
-#headerInfo{padding-right:10px;}
-.panel ul, .thumbWrap{margin:0 auto;}
-.panel ul ul{padding:0;}
-nav div.panel{float:none;}
-.main_p{ padding-bottom:30px;}
-.post{ max-width:625px; margin:0 auto;}
-.blog-box{margin: 0 auto 20px auto;}
-#content, #sidebar{ clear:both; width:92%; float:none; margin:0 auto; padding:10px 0;}
-#sidebar{ margin-top:30px;text-align: center;}
-#sidebar .banner img,.thanks a img{display: block;margin: 0 auto;}
-.top-readmore{float: none;margin: 20px auto 50px auto;padding: 0; display: block; text-align: center;text-decoration: underline;}
-.top-readmore span{background-size: 6px auto;padding: 0 0 0 11px;}
-.thanks img{margin: 0 auto;float: none;}
-#banners,.side-list{wodth:100%;margin:0 auto;overflow:hidden;}
-.side-list{width:100%;margin:0 auto 20px auto;text-align: left;}
-#banners p{width:30%; float:left;margin:0 1% 0 2%;}
-#banners p img{width:100%;height:auto;}
-section.widget_search{text-align:center;}
-#contactBanner{margin:0 auto;}
-#footer{margin-top:50px;border:0;text-align:center;}
-#footerLogo{ float:none; width:auto; padding-bottom:20px; text-align:center;}
-#footer ul{ padding-top:20px;}
-#footer ul ul{padding-top:0;border:0;}
-.side-list li ul li a br{display: none;}
-.top-info-post {margin: 0 auto 10px auto;}
-#top-menu-list{align-items: stretch;margin: 0 auto 40px;width: 92%;}
-#top-menu-list .top-menu-box{
-	width: 48%;
-    height: auto;
-    display: block;
-    margin: 0;
-    background: url(images/formback.jpg) repeat left top;
-    border-radius: 6px;
-    padding: 30px 10px 10px 10px;
-    position: relative;
-}
-#top-menu-list .temp-pc{position: initial;margin: 0 auto 10px auto;}
-.top-menu-box3 .top-menu-img{width: 100%;max-width: 269px;height: auto;}
-#top-menu-list .pack-name {font-size:20px;}
+	body{overflow-x: hidden;}
+	#wrapper, #header, .inner,.footer-inner{width:100%;height: auto;}
+	.single .wp-caption {width:100% !important;height: auto;}
+	#header h1{padding:10px;}
+	#headerInfo{padding-right:10px;}
+	.panel ul, .thumbWrap{margin:0 auto;}
+	.panel ul ul{padding:0;}
+	nav div.panel{float:none;}
+	.main_p{ padding-bottom:30px;}
+	.post{ max-width:625px; margin:0 auto;}
+	.blog-box{margin: 0 auto 20px auto;}
+	#content, #sidebar{ clear:both; width:92%; float:none; margin:0 auto; padding:10px 0;}
+	#sidebar{ margin-top:30px;text-align: center;}
+	#sidebar .banner img,.thanks a img{display: block;margin: 0 auto;}
+	.top-readmore{float: none;margin: 20px auto 50px auto;padding: 0; display: block; text-align: center;text-decoration: underline;}
+	.top-readmore span{background-size: 6px auto;padding: 0 0 0 11px;}
+	.thanks img{margin: 0 auto;float: none;}
+	#banners,.side-list{wodth:100%;margin:0 auto;overflow:hidden;}
+	.side-list{width:100%;margin:0 auto 20px auto;text-align: left;}
+	#banners p{width:30%; float:left;margin:0 1% 0 2%;}
+	#banners p img{width:100%;height:auto;}
+	section.widget_search{text-align:center;}
+	#contactBanner{margin:0 auto;}
+	#footer{margin-top:50px;border:0;text-align:center;}
+	#footerLogo{ float:none; width:auto; padding-bottom:20px; text-align:center;}
+	#footer ul{ padding-top:20px;}
+	#footer ul ul{padding-top:0;border:0;}
+	.side-list li ul li a br{display: none;}
+	.top-info-post {margin: 0 auto 10px auto;}
+	#top-menu-list{align-items: stretch;margin: 0 auto 40px;width: 92%;}
+	#top-menu-list .top-menu-box{
+		width: 48%;
+	    height: auto;
+	    display: block;
+	    margin: 0 1%;
+	    box-sizing: border-box;
+	    background: url(images/formback.jpg) repeat left top;
+	    border-radius: 6px;
+	    padding: 30px 0 10px;
+	    position: relative;
+	}
+	#top-menu-list:before {right: -80px;bottom: -40px;}
+	#top-menu-list .temp-pc{position: initial;margin: 0 auto 10px auto;}
+	.top-menu-box3 .top-menu-img{width: 100%;max-width: 269px;height: auto;}
+	#top-menu-list .pack-name {font-size:20px;}
 
 }
 @media only screen and (max-width: 940px){ 
@@ -868,11 +874,14 @@ select{line-height:50px;height:50px;}
 @media only screen and (max-width: 489px){ 
 	br.br489{display: inline;}
 	#header h2 img{width: 200px;display:block;margin:0 auto;}
+	#mainImg .main_p:before {width: 60px; height: 48px; bottom: 0;right: 0;}
+	.top-info h3.top-info-h3 img.img-inline {margin: 0 5px;width: 26px;height: auto;}
 	#top-menu-list {display: block; }
 	#top-menu-list .top-menu-box {
     width: 100%;
     margin: 0 auto 30px;
     padding: 20px 10px 10px 10px;}
+    #top-menu-list .top-menu-box1:before {left: 10px;top: 10px;}
 	#top-works { padding: 30px 15px 5px 15px;}
 	#content .date{font-size: 12px;}
 	#flow-list ul.flow-ul {display: block;margin: 0 auto 20px;}
@@ -910,9 +919,9 @@ select{line-height:50px;height:50px;}
 @media only screen and (max-width: 420px){
 	 br.br420{display: inline;}
 	#mainImg{ width:100%; height:auto;}
-	#mainImg h2.mainimage-title {font-size: 16px;margin: 0 auto 15px auto;width: 96%;}
+	#mainImg h2.mainimage-title {font-size: 18px;margin: 0 auto 15px auto;width: 96%;}
 	.top-info h3.top-info-h3{font-size: 18px;margin: 0 0 20px 0;min-height: 14px;}
-	.top-info h3.top-info-h3 img.img-inline {margin: 0 5px;width: 20px;height: auto;}
+	.top-info h3.top-info-h3 img.img-inline {margin: 0 5px;width: 30px;height: auto;}
 	.top-info-post h4.title {padding: 15px 5px !important;font-size: 14px;}
 	.top-works-title{text-align: center;}
 	.top-works-title h2 img{display: block;margin: 0 auto;}
